@@ -1,14 +1,14 @@
-# csv-transfer
-A quick csv transfer from device to file system.
+# file-upload
+A quick file uploader from device to file system.
 
-Files are  uploaded to `'./uploads'. Expects a multipart `POST` request to `'/'`.
+Files are  uploaded to `'./uploads'`. Expects a multipart/formdata `POST` request to `'/'`.
 
 Install with:
 ```bash
 npm install
 ```
 
-Run the server with
+Run the server with:
 ```bash
 npm start
 ```
