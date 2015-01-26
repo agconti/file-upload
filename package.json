@@ -1,0 +1,26 @@
+{
+  "name": "csv-transfer",
+  "version": "1.0.0",
+  "description": "a quick csv transfer from device to file system.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agconti/csv-transfer.git"
+  },
+  "author": "agconti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agconti/csv-transfer/issues"
+  },
+  "homepage": "https://github.com/agconti/csv-transfer",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1",
+    "morgan": "^1.5.1",
+    "multer": "^0.1.7"
+  }
+}
